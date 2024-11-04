@@ -1,10 +1,32 @@
 Welcome to the MoMoOpenAPI_SandBox wiki!
 
-[](https://github.com/Ddamula/MoMoOpenAPI_SandBox/wiki#momo-open-api-sandbox-notebook)
-[](https://github.com/Ddamula/MoMoOpenAPI_SandBox/wiki#authentication)
-[](https://github.com/Ddamula/MoMoOpenAPI_SandBox/wiki#get-paid)
-[](https://github.com/Ddamula/MoMoOpenAPI_SandBox/wiki#know-your-customer)
-[](https://github.com/Ddamula/MoMoOpenAPI_SandBox/wiki#pay)
+Here is a suggested Table of Contents for the `home.md` file:
+
+1. [MoMo Open API SandBox NoteBook](#momo-open-api-sandbox-notebook)
+2. [Timer Wait Time](#timer-wait-time)
+3. [Authentication](#authentication)
+   - [Creating API User on the SandBox](#creating-api-user-on-the-sandbox)
+   - [Creating the API Key (Password) For the API USER Created SandBox](#creating-the-api-key-password-for-the-api-user-created-sandbox)
+   - [Test Functions Creating API User and Key](#test-functions-creating-api-user-and-key)
+   - [Generate Access Token Function](#generate-access-token-function)
+   - [Validate Access Token Status Function](#validate-access-token-status-function)
+4. [Get Paid](#get-paid)
+   - [Get Paid Debit API Function](#get-paid-debit-api-function)
+   - [Check Debit Status Function](#check-debit-status-function)
+   - [Notification](#notification)
+   - [Testing Status Responses with payer_Id_msisdn](#testing-status-responses-with-payer_id_msisdn)
+5. [Know Your Customer](#know-your-customer)
+   - [Get Basic Info KYC Function](#get-basic-info-kyc-function)
+   - [Get Detailed KYC Function With Consent](#get-detailed-kyc-function-with-consent)
+   - [Generate Consent bc-authorize Function](#generate-consent-bc-authorize-function)
+   - [Generate Consent Token oauth2 Function](#generate-consent-token-oauth2-function)
+   - [Status Token oauth2 Function](#status-token-oauth2-function)
+   - [Get Detailed KYC with Consent Token oauth2 Function](#get-detailed-kyc-with-consent-token-oauth2-function)
+6. [Pay](#pay)
+   - [Pay Disbursement Transfer Function](#pay-disbursement-transfer-function)
+   - [Get Status on Disbursements Transfer Function](#get-status-on-disbursements-transfer-function)
+   - [Testing Status Responses with payee_Id_msisdn](#testing-status-responses-with-payee_id_msisdn)
+
 ...
 
 # <b>MoMo Open API SandBox NoteBook
