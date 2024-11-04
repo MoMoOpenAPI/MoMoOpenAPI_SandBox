@@ -1,0 +1,14 @@
+{
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Github}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }},
+        "cSpell.language": "en",
+        "cSpell.enabledLanguageIds": [
+            "markdown",
+            "plaintext"
+        ]
+}
