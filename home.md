@@ -1,4 +1,4 @@
-<b> # Welcome to the MoMoOpenAPI_SandBox wiki!<b>
+<b> # Welcome to the MoMoOpenAPI_SandBox wiki!</b>
 
 
 
@@ -29,7 +29,7 @@
 
 ...
 
-# <b>MoMo Open API SandBox NoteBook
+# <b>MoMo Open API SandBox NoteBook</b>
 ...
 ```python 
 from datetime import datetime
@@ -58,7 +58,7 @@ def countdown(seconds):
         seconds -= 1
     print("0")
 ```
-# <b>Authentication 
+# <b>Authentication</b>
 ## Creating API User on the SandBox
 ...
 ```python 
@@ -189,7 +189,7 @@ def Token_Status():
         #print(Token)
 ##Token_Status()
 ```
-# <b>Get Paid
+# <b>Get Paid</b>
 ## Get Paid Debit API Function
 ...
 ```python 
@@ -330,7 +330,7 @@ if (Debit_Status == "SUCCESSFUL"):
 else:
     print(Debit_Status+""+" Notification No Sent")
 ```
-# <b>Know Your Customer
+# <b>Know Your Customer</b>
 ## Get Basic Info KYC Function
 ...
 ```python 
@@ -486,7 +486,7 @@ def Get_DetailedInfo_KYC():
     #print(Status_Json)
 Get_DetailedInfo_KYC()
 ```
-# <b>Pay
+# <b>Pay</b>
 ## Pay Disbursement Transfer Function
 ...
 ```python 
