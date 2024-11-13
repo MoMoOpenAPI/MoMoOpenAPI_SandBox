@@ -16,3 +16,11 @@ p {
     src: url(https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Medium.woff);
     font-size: 14px;
 }
+@font-face {
+    font-family: 'MTN Brighter Sans Regular';
+    src: url("https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Regular.eot");
+    src: url("https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Regular.eot?#iefix") format("embedded-opentype"),
+         url("https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Regular.woff2") format('woff2'),
+         url("https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Regular.woff") format('woff'),
+         url("https://momo.mtn.com/wp-content/themes/momotheme/fonts/MTNBrighterSans-Regular.ttf") format('truetype');
+  }
