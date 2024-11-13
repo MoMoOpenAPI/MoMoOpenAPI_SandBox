@@ -1,5 +1,46 @@
 # <b>MoMo Open API SandBox - Jupyter Note book </b>
 
+## Table of Contents
+1. [Initialization](#initialization)
+   - [timer-wait-time function](#timer-wait-time-function)
+2. [Authorization](#authorization)
+   - [Creating API User on the SandBox](#creating-api-user-on-the-sandbox)
+   - [Creating the API Key Password For the API User](#creating-the-api-key-password-for-the-api-user)
+   - [Generate Access Baerer Token](#generate-access-baerer-token)
+   - [Bearer Token expiry validation function](#bearer-token-expiry-validation-function)
+3. [Get Paid](#get-paid)
+   - [Debit API Function](#debit-api-function)
+   - [Debit Status API Function](#debit-status-api-function)
+   - [Notification to the Payer after a successful Debit Request](#notification-to-the-payer-after-a-successful-debit-request)
+   - [Refund of a successful Debit Partial or full](#refund-of-a-successful-debit-partial-or-full)
+   - [Get Status of a Refund Request](#get-status-of-a-refund-request)
+   - [Test GetPaid Functions Status](#test-getpaid-functions-status)
+4. [Fetch Customer Details KYC](#fetch-customer-details-kyc)
+   - [Get Basic Info KYC Function](#get-basic-info-kyc-function)
+   - [Get Detailed KYC Function With Consent](#get-detailed-kyc-function-with-consent)
+     - [Generate Consent bc-authorize Function](#generate-consent-bc-authorize-function)
+     - [Generate Consent Token oauth2 Function](#generate-consent-token-oauth2-function)
+     - [Get Detailed KYC with Consent Token oauth2 Function](#get-detailed-kyc-with-consent-token-oauth2-function)
+     - [Test detailed KYC Functions](#test-detailed-kyc-functions)
+5. [Pay](#pay)
+   - [Disburse Transfer Function](#disburse-transfer-function)
+   - [Get Status on Disbursements Transfer Function](#get-status-on-disbursements-transfer-function)
+   - [Test Pay Functions Disbursement](#test-pay-functions-disbursement)
+6. [Distribute](#distribute)
+   - [CashIn Deposit Function](#cashin-deposit-function)
+   - [CashIn Deposit Status Function](#cashin-deposit-status-function)
+   - [CashOut Request To Withdraw Function](#cashout-request-to-withdraw-function)
+   - [CashOut Request Status Function](#cashout-request-status-function)
+   - [Test CashIn and CashOut Functions](#test-cashin-and-cashout-functions)
+. [Invoice](#invoice)
+   - [Create Invoice](#create-invoice)
+   - [Check Invoice Status](#check-invoice-status)
+   - [Cancel Invoice Request](#cancel-invoice-request)
+   - [Test Invoice Functions](#test-invoice-functions)
+
+
+# <b>MoMo Open API SandBox - Jupyter Note book </b>
+
 ## <b>Intialization</b>
 ...
 ```python
@@ -71,7 +112,7 @@ def Create_API_User_SandBox():
     except:
         print("Something Is Wrong "+resp.json)
 ```
-# <b>Creating the API Key Password For the API User</b>        
+## <b>Creating the API Key Password For the API User</b>        
 
 ```python
 #Create_API_User_SandBox()
