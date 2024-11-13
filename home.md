@@ -32,7 +32,7 @@
    - [CashOut Request To Withdraw Function](#cashout-request-to-withdraw-function)
    - [CashOut Request Status Function](#cashout-request-status-function)
    - [Test CashIn and CashOut Functions](#test-cashin-and-cashout-functions)
-. [Invoice](#invoice)
+7. [Invoice](#invoice)
    - [Create Invoice](#create-invoice)
    - [Check Invoice Status](#check-invoice-status)
    - [Cancel Invoice Request](#cancel-invoice-request)
@@ -76,6 +76,10 @@ def countdown(seconds):
     print("0")
 ```
 # <b>Authorization</b>
+   - [Creating API User on the SandBox](#creating-api-user-on-the-sandbox)
+   - [Creating the API Key Password For the API User](#creating-the-api-key-password-for-the-api-user)
+   - [Generate Access Baerer Token](#generate-access-baerer-token)
+   - [Bearer Token expiry validation function](#bearer-token-expiry-validation-function)
 ## <b>Creating API User on the SandBox</b>
 ```python
 #Function to create an API User (Username) from The MoMo OpenAPI SandBox
@@ -202,12 +206,12 @@ def Token_Status():
 ##Token_Status()
 ```
 # <b>Get Paid</b>
-1. Debit API Function
-2. Debit Status API Function
-3. Notification to the Payer after a successful Debit Request
-4. Refund of a successful Debit Partial or full
-5. Get Status of a Refund Request
-6. Test GetPaid Functions Status
+   - [Debit API Function](#debit-api-function)
+   - [Debit Status API Function](#debit-status-api-function)
+   - [Notification to the Payer after a successful Debit Request](#notification-to-the-payer-after-a-successful-debit-request)
+   - [Refund of a successful Debit Partial or full](#refund-of-a-successful-debit-partial-or-full)
+   - [Get Status of a Refund Request](#get-status-of-a-refund-request)
+   - [Test GetPaid Functions Status](#test-getpaid-functions-status)
 
 ## <b>Debit API Function</b>
 ```python
@@ -429,14 +433,12 @@ else:
 
 
 # <b>Fetch Customer Details KYC</b>
-1. <b>Get Basic Info KYC Function</b>
-2. <b>Get Detailed KYC Function With Consent</b>
-3. <b>Generate Consent bc-authorize Function</b>
-4. <b>Generate Consent Token oauth2 Function</b>
-5. <b>Status Token oauth2 Function</b>
-6. <b>Get Detailed KYC with Consent Token oauth2 Function</b>
-7. <b>Test detailed KYC Functions</b>
-8. <b>Get Basic Info KYC Function</b>
+   - [Get Basic Info KYC Function](#get-basic-info-kyc-function)
+   - [Get Detailed KYC Function With Consent](#get-detailed-kyc-function-with-consent)
+     - [Generate Consent bc-authorize Function](#generate-consent-bc-authorize-function)
+     - [Generate Consent Token oauth2 Function](#generate-consent-token-oauth2-function)
+     - [Get Detailed KYC with Consent Token oauth2 Function](#get-detailed-kyc-with-consent-token-oauth2-function)
+     - [Test detailed KYC Functions](#test-detailed-kyc-functions)
 
 ....
 ## <b>Get Basic Info KYC Function</b>
@@ -612,10 +614,9 @@ Get_DetailedInfo_KYC()
 
 #####
 # <b>Pay</b>
-1. <b>Disburse Transfer Function</b>
-2. <b>Get Status on Disbursements Transfer Function</b>
-3. <b>Test Pay Functions Disbursement</b>
-4. <b>Disburse Transfer Function</b>
+   - [Disburse Transfer Function](#disburse-transfer-function)
+   - [Get Status on Disbursements Transfer Function](#get-status-on-disbursements-transfer-function)
+   - [Test Pay Functions Disbursement](#test-pay-functions-disbursement)
 
 ## <b>Disburse Transfer Function</b>
 
@@ -730,15 +731,11 @@ Check_Status_Transfer(Pay_Transfer_Request_Ref_ID)
 ```
 
 # <b>Distribute</b>
-1. CashIn Deposit Function
-2. CashIn Deposit Status Function
-3. CashOut Request To Withdraw Function
-4. CashOut Request Status Function
-5. Test CashIn and CashOut Functions
-6. Test CashIn Functions
-7. Test CashOut Functions
-8. CashIn Deposit Function
-
+   - [CashIn Deposit Function](#cashin-deposit-function)
+   - [CashIn Deposit Status Function](#cashin-deposit-status-function)
+   - [CashOut Request To Withdraw Function](#cashout-request-to-withdraw-function)
+   - [CashOut Request Status Function](#cashout-request-status-function)
+   - [Test CashIn and CashOut Functions](#test-cashin-and-cashout-functions)
 
 ## <b>CashIn Deposit Function</b>
 <b>With Customer Names Validations</b>
@@ -951,10 +948,10 @@ Check_Status_CashIn(CashIn_Request_Ref_ID)
 
 ```
 # <b>Invoice</b>
-1. <b>Create Invoice</b>
-2. <b>Check Invoice Status</b>
-3. <b>Cancel Invoice Request</b>
-4. <b>Test Invoice Functions</b>
+   - [Create Invoice](#create-invoice)
+   - [Check Invoice Status](#check-invoice-status)
+   - [Cancel Invoice Request](#cancel-invoice-request)
+   - [Test Invoice Functions](#test-invoice-functions)
 
 ## <b>Create Invoice</b>
 ....
